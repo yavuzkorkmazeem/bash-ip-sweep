@@ -16,11 +16,11 @@ It also runs the pings in parallel using background jobs (&) for faster scanning
 
 Make the script executable:
 
-chmod +x sweep.sh
+chmod +x ipsweep.sh
 
 Then run it by providing the first 3 octets of the target subnet:
 
-./sweep.sh 192.168.1
+./ipsweep.sh 192.168.1
 
 This will scan from 192.168.1.1 to 192.168.1.254.
 
@@ -41,10 +41,6 @@ May be blocked by firewalls or systems configured to drop ICMP
 ✅ Tested On
 
 Kali Linux
-
-Ubuntu
-
-Debian-based systems
 
 🙏 Credits
 
